@@ -1,0 +1,72 @@
+<!--
+  Generated template for the InformationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <!-- <ion-navbar>
+    <ion-title>information</ion-title>
+  </ion-navbar> -->
+
+</ion-header>
+
+
+<ion-content padding class="mainpage">
+  <div class="header">
+    <img src="assets/icon/auxesis_new.png" class="logo">
+  </div>
+  <div class="infobody">
+    <!-- <form ng-submit="getInfo()">
+      <div class="list myinfolist">
+        <label class="item item-input">
+          <span class="input-label">Name</span>
+          <input type="text" ng-model="getData.name">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Security Number</span>
+          <input type="number" ng-model="getData.securityno">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">DL Number</span>
+          <input type="number" ng-model="getData.dlno" >
+        </label>
+        
+          <button class="button button-block button-positive" type="submit">Submit</button>
+        
+      </div>
+    </form> -->
+      <ion-list class="formlist">
+      
+        <ion-item>
+          <ion-label floating>Name</ion-label>
+          <ion-input type="text" [(ngModel)]="name"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Security Number</ion-label>
+          <ion-input type="number" [(ngModel)]="securityno"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>DL Number</ion-label>
+          <ion-input type="number" [(ngModel)]="dlno"></ion-input>
+        </ion-item>
+      
+        <ion-item class="ionbtnsubmit">
+          <button ion-button round large (click)="submit()">Submit</button>
+        </ion-item>
+      </ion-list>
+
+      <!-- <ion-list>
+        <ion-item  *ngFor="let v of showValues">
+          <h2>{{ v }}</h2>
+          <p>{{ getValue(v) }}</p>
+        </ion-item>
+      </ion-list> -->
+  </div> 
+  <div class="footer">
+    
+  </div>
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar class="homebar" color="homebar">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Auxesis Secure</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="homebuttons">
+    <button class="myaddress" ion-button large round secondary (click)="myaddress()" color="primary">My Address</button>
+
+    <button class="sharedetails" ion-button large round secondary (click)="sharedetails()" color="primary">Share Details</button>
+
+    <button class="sharedlists" ion-button large round secondary (click)="sharedlists()" color="secondary">Shared Lists</button>
+
+    <div class="homeimagebtdiv">
+      <img src="assets/icon/block.png" class="homeimagebt">
+    </div>
+  </div>
+</ion-content>

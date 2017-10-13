@@ -1,0 +1,32 @@
+page-information {
+    img.logo {
+        width: 40%;
+        position: relative;
+        padding: 5%;
+    }
+    .infobody {
+        padding: 5%;
+        margin-top: 10%;
+    }
+    .list.myinfolist label.item.item-input {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .list.myinfolist button {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        border-radius: 40px;
+    }
+    ion-content.mainpage {
+        background-color: darkslategrey;
+        opacity: 0.95;
+    }
+    ion-item.ionbtnsubmit {
+        text-align: center;
+        margin-top: 20%;
+    }
+    .item-md {
+        background-color: transparent;
+        color: #fff;
+    }
+}

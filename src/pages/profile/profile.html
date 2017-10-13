@@ -1,0 +1,28 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar class="homebar" color="homebar">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="profilepic">
+    <img src="assets/icon/favicon.ico" class="profilepicimg">
+  </div>
+  <div class="profilecontent">
+    <h1>{{name?name:'Hi There!'}}</h1>
+    <br>
+    <p>Join {{joinat?joinat:'a days ago!'}}</p>
+  </div>
+</ion-content>
